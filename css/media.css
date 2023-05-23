@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans.ttf);
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url(../fonts/CrimsonText.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-in-header {
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-top: 18.5px;
+        height: 87px;
+    }
+    
+    .logo-in-nav {
+        height: 31.06px;
+        width: 26.83px;
+    }
+    
+    .webname-in-nav {
+        font-size: 30px;
+    }
+
+    .ul-in-nav {
+        display: none;
+    }
+    
+    .line-imgs {
+        display: block !important;
+        Width: 24.06px;
+        Height: 19.69px;
+        margin-top: 9.16px;
+    }
+    
+    .header-section {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 642px;
+    }
+    
+    .text2-in-headerdiv {
+        font-size: 28px;
+    }
+    
+    .text3-in-headerdiv {
+        margin: 15px 0 25px 0;
+    }
+    
+    .button-in-headerdiv {
+        margin-bottom: 40.39px;
+    }
+    
+    .img-in-header {
+        width: 335px;
+        height: 196.61px;
+        margin-top: 32px;
+        margin-bottom: 30px;
+    }
+
+    .section-1 {
+        height: 766.45px;
+        margin-top: 22px;
+    }
+    
+    .text2-in-section1, .text2-in-section4 {
+        font-size: 24px;
+        margin: 16px 0;
+    }
+    
+    .text3-in-section1, .text3-in-section4 {
+        margin-bottom: 55px;
+    }
+    
+    .logos-in-section1 {
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+
+    .button-in-section1, 
+    .button-in-section2, 
+    .button-in-section3,
+    .button-in-section4 {
+        margin-top: 55px;
+    }
+
+    .section-2 {
+        height: 513.88px;
+        margin: 59.55px 2% 0 2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .img-in-section2 {
+        width: 335px;
+        height: 240.88px;
+        margin-bottom: 30px;
+    }
+
+    .rightdiv-in-section2, .leftdiv-in-section3 {
+        width: 334px;
+    }
+    
+    .text1-in-section2, .text1-in-section3 {
+        font-family: 'Crimson Text';
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+        color: #212529
+    }
+    
+    .button-in-section2, 
+    .button-in-section3, 
+    .button-in-section4 {
+        margin-top: 16px;
+    }
+
+    .section-3 {
+        height: 580.87px;
+        margin: 60.12px 2% 0 2%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-in-section3 {
+        width: 335px;
+        height: 315.87px;
+        margin-bottom: 30px;
+    }
+
+
+    .section-4 {
+        height: 1601px;
+        margin: 40.13px 2% 0 2%;
+    }
+    
+    .persons-in-section4 {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 35px;
+
+    }
+    
+    .person-section4 {
+        margin: 0 !important;
+    }
+
+    .portfolio-section {
+        margin-top: 34px;
+    }
+    
+    .text2-in-portfolio-section1 {
+        font-size: 24px;
+    }
+    
+    .portfolio-img {
+        margin-top: 45px;
+        row-gap: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .img-portfolio {
+        width: 335px;
+        height: 196.62px;
+        margin-bottom: 55px;
+    }
+    
+    .portfolio-1, .portfolio-2,
+    .portfolio-3, .portfolio-4 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 335px;
+    }
+    
+    .button-in-portfolio {
+        margin-top: 27.95px;
+    }
+    
+    .plans-section {
+        margin-top: 21px;
+    }
+
+    .text2-in-plans-section1 {
+        font-size: 24px;
+    }
+
+    .plans-div {
+        margin-top: 46px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 339px;
+        row-gap: 50px;
+    }
+
+    .plans-1, .plans-2,
+    .plans-3 {
+        width: 339px;
+    }
+
+    .contact-section {
+        margin-top: 36px;
+        margin-bottom: 45px;
+    }
+
+    .contact-header {
+        width: 240px;
+    }
+    
+    .text1-in-contact-section1 {
+        font-size: 24px;
+    }
+    
+    .contact-div {
+        margin-top: 45px;
+        width: 335px;
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 21px;
+    }
+
+    iframe, .contact-input {
+        width: 335px;
+    }
+
+    .input-in-contact {
+        width: 335px
+    }
+    
+    .button-in-contact {
+        margin-top: 30px;
+        width: 335px;
+    }
+    
+    footer {
+        margin-top: 39px;
+    }
+    
+    .div-in-footer {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .leftdiv-in-footer i {
+        margin: 0;
+    }
+    
+    .text1-in-footer {
+        margin: 0;
+    }
+
+}

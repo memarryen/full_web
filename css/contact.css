@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans.ttf);
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url(../fonts/CrimsonText.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    margin: 0;
+    background-color: #74C69D;
+}
+
+.nav-in-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 135px;
+    padding-top: 35px;
+}
+
+.leftdiv-in-nav {
+    display: flex;
+}
+
+.logo-in-nav {
+    margin-right: 18px;
+}
+
+.web-name-a {
+    text-decoration: none;
+}
+
+.webname-in-nav {
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.ul-in-nav {
+    list-style: none;
+    display: flex;
+}
+
+.a-in-headernav {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.contact-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+}
+
+.text1-in-contact-section1 {
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 0;
+}
+
+.text2-in-contact-section1 {
+    font-family: 'Work Sans';
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.contact-div {
+    margin-top: 67px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.label-in-contact {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 16px;
+    margin-top: 21px;
+}
+
+.input-in-contact {
+    width: 575px;
+    height: 38px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.button-in-contact {
+    width: 575px;
+    height: 48px;
+    background-color: #212529;
+    border-radius: 5px;
+    border: none;
+    margin-top: 45px;
+}
+
+.a-in-contact {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Work Sans';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+footer {
+    height: 125px;
+    background-color: #74C69D;
+    margin-top: 99px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-in-footer {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftdiv-in-footer i {
+    color: #FFFFFF;
+    width: 18px;
+    height: 18px;
+}
+
+.text1-in-footer {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+

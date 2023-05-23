@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans.ttf);
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url(../fonts/CrimsonText.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    margin: 0;
+    background-color: #74C69D;
+}
+
+.nav-in-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 135px;
+    padding-top: 35px;
+}
+
+.leftdiv-in-nav {
+    display: flex;
+}
+
+.logo-in-nav {
+    margin-right: 18px;
+}
+
+.web-name-a {
+    text-decoration: none;
+}
+
+.webname-in-nav {
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.rightdiv-in-nav {
+    display: flex;
+}
+
+.ul-in-nav {
+    list-style: none;
+    display: flex;
+}
+
+.a-in-headernav {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.header-section {
+    height: 461px;
+    padding: 0 129.72px 0 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #74C69D;
+}
+
+.leftdiv-in-headerdiv {
+    margin-top: 44.57px;
+    flex: wrap;
+    width: 416px;
+}
+
+.text1-in-headerdiv {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 0 15px 0;
+}
+
+.text2-in-headerdiv {
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.text3-in-headerdiv {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 15px;
+}
+
+.button-in-headerdiv {
+    width: 170px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+}
+
+.a-in-headerdiv {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Work Sans';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.img-in-header {
+    margin-bottom: 82.87px;
+}
+
+.section-1 {
+    margin-top: 60px;
+    height: 390px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text1-in-section1, .text1-in-section4 {
+    font-family: 'Work Sans';
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #74C69D;
+    margin: 0;
+}
+
+.text2-in-section1, .text2-in-section4 {
+    font-family: 'Crimson Text';
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin: 0;
+}
+
+.text3-in-section1, .text3-in-section4 {
+    font-family: 'Work Sans';
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+
+.logos-in-section1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-in-section1, 
+.button-in-section2, 
+.button-in-section3,
+.button-in-section4 {
+    width: 170px;
+    height: 48px;
+    background-color: #212529;
+    border-radius: 5px;
+    border: none;
+}
+
+.a-in-button-section1, 
+.a-in-button-section2, 
+.a-in-button-section3, 
+.a-in-button-section4 {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Work Sans';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.section-2 {
+    height: 431.43px;
+    margin: 73px 9% 0 9%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightdiv-in-section2, .leftdiv-in-section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 470px;
+}
+
+.text1-in-section2, .text1-in-section3 {
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    color: #212529
+}
+
+.text2-in-section2, .text2-in-section3 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(33, 37, 41, 0.5)
+}
+
+.button-in-section2, 
+.button-in-section3, 
+.button-in-section4 {
+    margin-top: 16px;
+}
+
+.section-3 {
+    height: 565.73px;
+    margin: 73.57px 9% 0 9%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-4 {
+    margin-top: 102.27px;
+    height: 599px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.persons-in-section4 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.person-section4 {
+    Width: 279px;
+    Height: 299px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persons-name-section4 {
+    font-family: 'Crimson Text';
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    color: #212529;
+    align-self: flex-start;
+    margin: 19px 0 17px 25px;
+}
+
+.persons-position-section4 {
+    font-family: 'Work Sans';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(33, 37, 41, 0.75);
+    align-self: flex-start;
+    margin: 0 0 19px 25px;
+}
+
+.persons-img-section4 {
+    margin-top: 20px;
+}
+
+footer {
+    height: 125px;
+    background-color: #74C69D;
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-in-footer {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftdiv-in-footer i {
+    color: #FFFFFF;
+    width: 18px;
+    height: 18px;
+}
+
+.text1-in-footer {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
